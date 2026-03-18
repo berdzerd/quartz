@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "github",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -16,39 +16,45 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "berdzerd.github.com",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
+        header: "mononoki",
+        body: "mononoki",
         code: "IBM Plex Mono",
       },
+
       colors: {
-        lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
-        },
-        darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+  lightMode: {
+    light: "#d8c8b8",        // foreground (main text)
+    lightgray: "#d0a860",    // warm accent (gold)
+    gray: "#a07888",         // muted purple-brown
+    darkgray: "#8898a8",     // cool gray-blue
+    dark: "#1c1410",         // background
+
+    secondary: "#8898a8",    // links (calm blue)
+    tertiary: "#98a068",     // success/secondary accent (green)
+
+    highlight: "rgba(176, 136, 88, 0.15)", // cursor tone
+    textHighlight: "#d0a86088",
+  },
+
+  darkMode: {
+    light: "#1c1410",        // background
+    lightgray: "#2e2420",    // subtle surfaces
+    gray: "#88a080",         // muted green
+    darkgray: "#d8c8b8",     // main text
+    dark: "#d8c8b8",         // strong text
+
+    secondary: "#8898a8",    // links
+    tertiary: "#98a068",     // accent
+
+    highlight: "rgba(176, 136, 88, 0.15)",
+    textHighlight: "#d0a86088",
         },
       },
     },
