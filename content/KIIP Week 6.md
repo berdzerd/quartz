@@ -10,7 +10,6 @@
 
 Lesson 11 features Korean holidays (Lunar New Year, Chuseok). The words are a little difficult, so make sure to study page 11 and worksheet 12. Lesson 12 has many words about emotion / feeling. The words are hard, so study worksheet 12, pages 4 and 5.
 
-[[KIIP Lesson 10 Vocab]]
 [[KIIP Lesson 11 Vocab]]
 [[KIIP Lesson 12 Vocab]]
 [[KIIP Lesson 13 Vocab]]
