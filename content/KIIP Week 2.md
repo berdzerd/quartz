@@ -1,4 +1,9 @@
-#숙제 #studyguide #korean 
+---
+tags:
+  - 숙제
+  - studyguide
+  - korean
+---
 Date: 02/07/2026
 Topics:  
 3과: 이걸로 한번 입어 보세요

@@ -1,8 +1,8 @@
 ---
 tags:
   - 숙제
-  - 단어
   - korean
+  - 단어
 ---
 Lesson 11 Words
 

@@ -1,5 +1,9 @@
-#숙제 #단어 #korean 
-
+---
+tags:
+  - 숙제
+  - 단어
+  - korean
+---
 Lesson 13 Words
 
 | Korean    | English                                  | Example |

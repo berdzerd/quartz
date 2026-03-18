@@ -1,4 +1,10 @@
- #숙제 #studyguide #korean 
+---
+tags:
+  - 숙제
+  - studyguide
+  - korean
+---
+
 Date: 01/29/2026
 Topics:
 1과: 제 고향은 경치가 아름다운 곳이에요

@@ -1,4 +1,10 @@
-#숙제 #단어 #korean 
+---
+tags:
+  - 숙제
+  - korean
+  - 단어
+---
+
 
 Lesson 12 Words
 
