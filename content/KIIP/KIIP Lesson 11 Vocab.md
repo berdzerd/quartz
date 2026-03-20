@@ -4,7 +4,6 @@ tags:
   - korean
   - 단어
 ---
-[[Lesson 11 Practice]]
 Lesson 11 Words
 
 | Korean    | English                                                | Example |
