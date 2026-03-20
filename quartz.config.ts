@@ -85,7 +85,7 @@ const config: QuartzConfig = {
       Plugin.ComponentResources({
         additionalJS: [
             {
-            src: "reveal.js",
+            src: "static/reveal.js",
             loadTime: "afterDOMReady",
           }
         ]
