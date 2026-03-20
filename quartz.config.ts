@@ -86,7 +86,7 @@ const config: QuartzConfig = {
         additionalJS: [
             {
             src: "reveal.js",
-            loadtime: "afterDOMready",
+            loadTime: "afterDOMReady",
           }
         ]
       }),

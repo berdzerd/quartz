@@ -1,5 +1,7 @@
 //Reveal Javascript for Quartz Site Korean HW
 
+console.log("reveal loaded");
+
 document.addEventListener("DOMContentLoaded", () => {
   document.querySelectorAll(".reveal").forEach(el => {
     const answer = el.dataset.answer
@@ -16,6 +18,4 @@ document.addEventListener("DOMContentLoaded", () => {
     })
   })
 })
-
-
 
