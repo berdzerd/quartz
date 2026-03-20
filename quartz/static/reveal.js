@@ -1,5 +1,3 @@
-//Reveal answer script for Korean Translations
-
 console.log("reveal loaded");
 
 document.addEventListener("DOMContentLoaded", () => {
