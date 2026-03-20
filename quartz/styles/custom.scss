@@ -1,3 +1,56 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+//hover-reveal
+// quartz/styles/custom.scss
+
+.reveal-toggle {
+  position: relative;
+  display: inline;
+  cursor: pointer;
+  user-select: none;
+}
+
+.reveal-input {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+  pointer-events: none; // prevents accidental clicks on hidden input
+}
+
+.reveal-placeholder {
+  color: var(--secondary);          // your theme's link color
+  text-decoration: underline dashed var(--secondary) 1px;
+  border-bottom: none;              // avoid extra underline overlap
+}
+
+.reveal-answer {
+  display: none;
+  color: var(--tertiary);           // accent for answer
+  font-weight: 500;
+  background: rgba(var(--tertiary-rgb, 152, 160, 104), 0.15); // subtle bg using your green
+  padding: 0 0.3em;
+  border-radius: 0.2em;
+  white-space: nowrap;              // prevent answer from wrapping oddly
+}
+
+// When checked: hide placeholder, show answer inline
+.reveal-input:checked + .reveal-placeholder {
+  display: none;
+}
+
+.reveal-input:checked ~ .reveal-answer {
+  display: inline;
+}
+
+// Optional: Add a "hide" hint or style after reveal (for toggle feel)
+.reveal-input:checked + .reveal-placeholder::after {
+  // If you want a "Click to hide" on placeholder, but since we hide it...
+  // Alternatively, style the whole label differently
+}
+
+.reveal-toggle:hover .reveal-placeholder {
+  color: var(--tertiary);           // subtle hover feedback
+}
