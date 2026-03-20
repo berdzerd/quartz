@@ -1,3 +1,16 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+//Reveal Translations
+.reveal {
+  cursor: pointer;
+  border-bottom: 1px dashed #d0a860;
+  color: #d0a860;
+}
+
+.reveal.revealed {
+  color: #d8c8b8;
+  border-bottom: none;
+}
+

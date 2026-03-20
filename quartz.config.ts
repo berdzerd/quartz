@@ -82,7 +82,14 @@ const config: QuartzConfig = {
     filters: [Plugin.RemoveDrafts()],
     emitters: [
       Plugin.AliasRedirects(),
-      Plugin.ComponentResources(),
+      Plugin.ComponentResources({
+        additionalJS: [
+            {
+            src: "reveal.js",
+            loadtime: "afterDOMready",
+          }
+        ]
+      }),
       Plugin.ContentPage(),
       Plugin.FolderPage(),
       Plugin.TagPage(),
