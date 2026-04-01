@@ -7,7 +7,7 @@ tags:
 ---
 ### Current Week
 [[KIIP Week 6]]
-	[[Practice Page]]
+	[[Writing Practice]]
 ### Current Vocabulary
 [[KIIP Lesson 10 Vocab]] 
 [[KIIP Lesson 11 Vocab]] 
