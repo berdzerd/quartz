@@ -3,6 +3,7 @@ tags:
   - 숙제
   - 단어
   - korean
+draft: true
 ---
 Lesson 14 Words
 

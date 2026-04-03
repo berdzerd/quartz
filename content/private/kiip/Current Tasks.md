@@ -4,6 +4,7 @@ tags:
   - 단어
   - studyguide
   - korean
+draft: true
 ---
 ### Current Week
 [[KIIP Week 6]]

@@ -1,3 +1,11 @@
+---
+tags:
+  - 숙제
+  - korean
+  - 단어
+draft: true
+---
+
 ## 10과 어휘
 
 | Korean       | English              | Type        | Example                   |
