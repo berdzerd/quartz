@@ -4,6 +4,8 @@ tags:
   - studyguide
   - korean
 draft: true
+type: syllabus
+aliases:
 ---
 # 3월 14일 26년 숙제 : 
 ### 책  
