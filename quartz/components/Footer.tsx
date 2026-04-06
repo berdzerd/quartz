@@ -14,7 +14,7 @@ export default ((opts?: Options) => {
     return (
       <footer class={`${displayClass ?? ""}`}>
       <p>
-           Berdzerd's Garden © {year}, licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> <img
+          Berdzerd's Garden © {year}, licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> <img
           src="/static/cc.svg"
           alt="Creative Commons CC Icon"
           width="20"
@@ -35,7 +35,7 @@ export default ((opts?: Options) => {
           }}
           />
          </p>
-        <ul>
+          <ul>
           {Object.entries(links).map(([text, link]) => (
             <li>
               <a href={link}>{text}</a>
