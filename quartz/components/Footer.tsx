@@ -15,7 +15,7 @@ export default ((opts?: Options) => {
       <footer class={`${displayClass ?? ""}`}>
       <p>
           Berdzerd's Garden © {year}, licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> <img
-          src="/static/cc.svg"
+          src="/quartz/qurtz/static/cc.svg"
           alt="Creative Commons CC Icon"
           width="20"
           height="20"
@@ -25,7 +25,7 @@ export default ((opts?: Options) => {
           }}
           />
           <img
-          src="/static/by.svg"
+          src="quartz/quartz/static/by.svg"
           alt="Creative Commons BY Icon"
           width="20"
           height="20"
