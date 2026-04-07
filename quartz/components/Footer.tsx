@@ -23,12 +23,14 @@ export default ((opts?: Options) => {
               alt="CC Icon"
               width="20"
               height="20"
+	      style={{ verticalAlign: "middle", height: "1.2em", marginLeft: "8px" }}
             />
             <img
               src="/static/by.svg"
               alt="BY Icon"
               width="20"
               height="20"
+	      style={{ verticalAlign: "middle", height: "1.2em", marginLeft: "8px" }}
             />
           </span>
         </p>
