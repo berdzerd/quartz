@@ -10,12 +10,12 @@ interface Options {
 export default ((opts?: Options) => {
   const Footer: QuartzComponent = ({ displayClass, cfg }: QuartzComponentProps) => {
     const year = new Date().getFullYear()
-    const links = opts?.links ?? []
+    const links = opts?.links ?? {}
     return (
       <footer class={`${displayClass ?? ""}`}>
-      <hr />
       <p>
-          Berdzerd's Garden © {year}, licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> 
+          Berdzerd's Garden © {year}, licensed under {" "}
+	  <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> 
 	  <img
           src="/static/cc.svg"
           alt="Creative Commons CC Icon"
