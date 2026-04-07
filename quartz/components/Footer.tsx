@@ -13,8 +13,10 @@ export default ((opts?: Options) => {
     const links = opts?.links ?? []
     return (
       <footer class={`${displayClass ?? ""}`}>
+      <hr />
       <p>
-          Berdzerd's Garden © {year}, licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> <img
+          Berdzerd's Garden © {year}, licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> 
+	  <img
           src="/static/cc.svg"
           alt="Creative Commons CC Icon"
           width="20"
@@ -34,10 +36,11 @@ export default ((opts?: Options) => {
             display: "inline-block",     // Keeps the icon inline
           }}
           />
+	  </span>
          </p>
           <ul>
           {Object.entries(links).map(([text, link]) => (
-            <li>
+            <li key ={text}>
               <a href={link}>{text}</a>
             </li>
           ))}
