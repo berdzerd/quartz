@@ -39,7 +39,7 @@ export const defaultContentPageLayout: PageLayout = {
     }),
  // quartz.layout.ts
 Component.Explorer({
-  title: "My Garden Map", // <--- Change this string to whatever you want
+  title: "Home", // <--- Change this string to whatever you want
   folderClickBehavior: "nav",
   folderDefaultState: "collapsed",
 })
