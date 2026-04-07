@@ -1,6 +1,5 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import style from "./styles/footer.scss"
-import { version } from "../../package.json"
 import { i18n } from "../i18n"
 
 interface Options {
@@ -10,34 +9,34 @@ interface Options {
 export default ((opts?: Options) => {
   const Footer: QuartzComponent = ({ displayClass, cfg }: QuartzComponentProps) => {
     const year = new Date().getFullYear()
-    const links = opts?.links ?? []
+    const links = opts?.links ?? {} // Ensure this is an object, not an array
+
     return (
       <footer class={`${displayClass ?? ""}`}>
-      <p>
-          Berdzerd's Garden © {year}, licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> <img
-          src="/static/cc.svg"
-          alt="Creative Commons CC Icon"
-          width="20"
-          height="20"
-          style={{
-            verticalAlign: "middle", // Aligns with text baseline
-            display: "inline-block",     // Keeps the icon inline
-          }}
-          />
-          <img
-          src="/static/by.svg"
-          alt="Creative Commons BY Icon"
-          width="20"
-          height="20"
-          style={{
-            verticalAlign: "middle", // Aligns with text baseline
-            display: "inline-block",     // Keeps the icon inline
-          }}
-          />
-         </p>
-          <ul>
+        <hr />
+        <p>
+          Berdzerd's Garden © {year}, licensed under{" "}
+          <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
+          <span class="cc-icons">
+             <img
+              src="/static/cc.svg"
+              alt="CC Icon"
+              width="20"
+              height="20"
+	      style={{ verticalAlign: "middle", height: "1.2em", marginLeft: "8px" }}
+            />
+            <img
+              src="/static/by.svg"
+              alt="BY Icon"
+              width="20"
+              height="20"
+	      style={{ verticalAlign: "middle", height: "1.2em", marginLeft: "8px" }}
+            />
+          </span>
+        </p>
+        <ul>
           {Object.entries(links).map(([text, link]) => (
-            <li>
+            <li key={text}>
               <a href={link}>{text}</a>
             </li>
           ))}

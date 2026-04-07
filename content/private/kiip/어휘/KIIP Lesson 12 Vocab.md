@@ -11,15 +11,15 @@ Lesson 12 Words
 
 | Korean | English                                                          | Example |
 | ------ | ---------------------------------------------------------------- | ------- |
-| 당황하다   | to feel flustered, embarrassed (caught off guard)  <br>          |         |
-| 무섭다    | to be scared, afraid  <br>                                       |         |
-| 우울하다   | to feel depressed, down  <br>                                    |         |
-| 답답하다   | to feel frustrated, stifled (emotionally or physically)  <br>    |         |
-| 창피하다   | to feel ashamed, embarrassed  <br>                               |         |
-| 속상하다   | to feel upset, hurt  <br>                                        |         |
-| 아쉅다    | to feel it’s a pity, to feel regret (something is missing)  <br> |         |
-| 실망하다   | to be disappointed  <br>                                         |         |
-| 그립다    | to miss (someone/something)  <br>                                |         |
+| 당황하다   | to feel flustered, embarrassed (caught off guard)            |         |
+| 무섭다    | to be scared, afraid                                  |         |
+| 우울하다   | to feel depressed, down                                 |         |
+| 답답하다   | to feel frustrated, stifled (emotionally or physically)      |         |
+| 창피하다   | to feel ashamed, embarrassed                                 |         |
+| 속상하다   | to feel upset, hurt                                       |         |
+| 아쉅다    | to feel it’s a pity, to feel regret (something is missing)  |         |
+| 실망하다   | to be disappointed                                      |         |
+| 그립다    | to miss (someone/something)                              |         |
 | 짜증나다   | to feel irritated, annoyed                                       |         |
 | 귀찮다    | to feel bothered, to find something annoying or troublesome      |         |
 |        |                                                                  |         |
