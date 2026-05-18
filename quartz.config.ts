@@ -30,14 +30,14 @@ const config: QuartzConfig = {
 
       colors: {
   lightMode: {
-    light: "#d8c8b8",        // foreground (main text)
+    light: "#3a2418",        // foreground (main text)
     lightgray: "#d0a860",    // warm accent (gold)
-    gray: "#a07888",         // muted purple-brown
+    gray: "#7a4f3a",         // muted purple-brown
     // original gray 8898A8
-    darkgray: "#6A99CC",     // cool gray-blue
+    darkgray: "#5a3726",     // cool gray-blue
     dark: "#1c1410",         // background
 
-    secondary: "#8898a8",    // links (calm blue)
+    secondary: "#8a5a3c",    // links (calm blue)
     tertiary: "#98a068",     // success/secondary accent (green)
 
     highlight: "rgba(176, 136, 88, 0.15)", // cursor tone
