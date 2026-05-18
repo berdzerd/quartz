@@ -37,7 +37,7 @@ const config: QuartzConfig = {
     darkgray: "#3a2418",     // main text (primary readable brown)
     dark: "#2b170f",         // strong text / titles / headings
 
-    secondary: "#7a5a44",    // links (brown-amber, slightly lighter than text hierarchy)
+    secondary: "#8898a8",    // links (cool gray blue same as dark mode)
     tertiary: "#98a068",     // optional accent (green still usable for contrast)
 
     lightHighlight: "rgba(176, 136, 88, 0.15)",
