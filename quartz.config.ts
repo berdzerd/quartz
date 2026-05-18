@@ -35,7 +35,7 @@ const config: QuartzConfig = {
     gray: "#7a4f3a",         // muted purple-brown
     // original gray 8898A8
     darkgray: "#5a3726",     // cool gray-blue
-    dark: "#1c1410",         // background
+    dark: "#fdf6e3",         // background
 
     secondary: "#8a5a3c",    // links (calm blue)
     tertiary: "#98a068",     // success/secondary accent (green)
