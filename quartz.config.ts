@@ -28,20 +28,20 @@ const config: QuartzConfig = {
         code: "Nova Mono",
       },
 
-      colors: {
+    colors: {
   lightMode: {
-    light: "#3a2418",        // foreground (main text)
-    lightgray: "#d0a860",    // warm accent (gold)
-    gray: "#7a4f3a",         // muted purple-brown
-    // original gray 8898A8
-    darkgray: "#5a3726",     // cool gray-blue
-    dark: "#fdf6e3",         // background
+    light: "#f6efe8",        // background (was incorrectly treated as text before)
+    lightgray: "#e7dbd1",    // subtle surfaces / cards
+    gray: "#6b4a35",         // secondary text (muted brown)
 
-    secondary: "#8a5a3c",    // links (calm blue)
-    tertiary: "#98a068",     // success/secondary accent (green)
+    darkgray: "#3a2418",     // main text (primary readable brown)
+    dark: "#2b170f",         // strong text / titles / headings
 
-    highlight: "rgba(176, 136, 88, 0.15)", // cursor tone
-    textHighlight: "#d0a86088",
+    secondary: "#7a5a44",    // links (brown-amber, slightly lighter than text hierarchy)
+    tertiary: "#98a068",     // optional accent (green still usable for contrast)
+
+    lightHighlight: "rgba(176, 136, 88, 0.15)",
+    textHighlight: "#d0a86088", 
   },
 
   darkMode: {
